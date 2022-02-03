@@ -31,4 +31,4 @@ jobs:
         run: npm install -g surge
 
       - name: deploy on surge
-        run: surge ./ succinct-uck.surge.sh --token ${{secrets.SURGE_TOKEN}
+        run: surge . succinct-uck.surge.sh --token ${{secrets.SURGE_TOKEN}
