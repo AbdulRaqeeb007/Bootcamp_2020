@@ -41,7 +41,7 @@ jobs:
           
 
       - name: deploy on surge
-        run: surge ./class2/build class-2-rose.surge.sh --token "c4d218c950ad8a9e8013a45ffc15fda3"
+        run: surge ./class2/build http://class-2-rose.surge.sh/ --token "c4d218c950ad8a9e8013a45ffc15fda3"
   
       
 # class-1
