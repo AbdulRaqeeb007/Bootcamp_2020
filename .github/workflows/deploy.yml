@@ -34,7 +34,7 @@ jobs:
           # Yarn command
           cmd: install
       - name: Yarn Build
-        run: cd class2 && yarn build
+        run: cd class2 && npm run build
     # Runs a set of commands using the runners shell
       - name: install surge
         run: npm install -g surge
